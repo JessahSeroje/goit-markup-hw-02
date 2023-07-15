@@ -1,0 +1,134 @@
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --white: #ffffff;
+  --cloud: #f4f4fd;
+  --ocean: #404bbf;
+}
+
+.body {
+  font-family: Roboto, Raleway;
+}
+
+/* -- General Style --  */
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.button {
+  color: var(--iris);
+  background-color: var(--cloud);
+  text-align: center;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+/* -- End of General Style */
+
+/* --Header-- */
+.header {
+  background-color: var(--white);
+}
+.header-logo {
+  color: var(--iris);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.header-logo:hover {
+  color: var(--navyblue);
+}
+.header-link {
+  color: var(--navyblue);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* --Address-- */
+.address {
+  color: var(--slate);
+  background-color: var(--white);
+}
+.address-link {
+  color: inherit;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* --Buttons-- */
+.buttons {
+}
+
+/* --Images-- */
+.images {
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--white, #fff);
+}
+.images-item {
+}
+.images-item-title {
+  color: var(--navyblue);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+.images-item-text {
+  color: var(--slate);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* --Footer-- */
+.footer {
+  background-color: var(--navyblue);
+}
+.footer-link {
+  color: var(--cloud);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-link:hover {
+  color: var(--iris);
+}
+.footer-text {
+  color: var(--cloud);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
