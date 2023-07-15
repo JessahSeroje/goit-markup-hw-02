@@ -64,7 +64,6 @@
 /* --Address-- */
 .address {
   color: var(--slate);
-  background-color: var(--white);
 }
 .address-link {
   color: inherit;
