@@ -35,6 +35,9 @@
 .link-logo > span {
   font-size: 18px;
 }
+.studio-1 {
+  color: var(--navy-blue);
+}
 .list {
   list-style: none;
 }
