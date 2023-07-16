@@ -37,10 +37,10 @@
 .header {
   background-color: var(--white);
 }
-.header-logo {
+.link-logo {
   color: var(--iris);
   font-family: Raleway;
-  font-size: 18px;
+  font-size: 0px;
   font-style: normal;
   font-weight: 800;
   line-height: 21px; /* 116.667% */
@@ -48,8 +48,8 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-.header-logo:hover {
-  color: var(--navyblue);
+.link-logo > span {
+  font-size: 18px;
 }
 .header-link {
   color: var(--navyblue);

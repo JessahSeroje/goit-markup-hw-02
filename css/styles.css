@@ -28,6 +28,20 @@
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+.link-logo {
+  text-decoration: none;
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway;
+  font-size: 0px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.link-logo > span {
+  font-size: 18px;
+}
 .button {
   font-family: Roboto;
   font-size: 16px;
@@ -45,9 +59,6 @@
 }
 
 .header-navigation {
-}
-
-.header-logo {
 }
 
 .header-list {
@@ -199,19 +210,6 @@
 .footer {
   color: var(--cloud);
   background-color: var(--navyblue);
-}
-.footer-link {
-  color: inherit;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-.footer-link:hover {
-  color: var(--iris);
 }
 .footer-text {
   color: var(--cloud);
