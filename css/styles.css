@@ -1,10 +1,17 @@
 /* -- CSS Variables -- */
 :root {
   --iris: #4d5ae5;
-  --navyblue: #2e2f42;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
   --slate: #434455;
-  --white: #ffffff;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+  --green: #31d0aa;
 }
 
 .body {
@@ -12,6 +19,22 @@
 }
 
 /* -- General Style --  */
+
+.link-logo {
+  text-decoration: none;
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway;
+  font-size: 0px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.link-logo > span {
+  font-size: 18px;
+}
 .list {
   list-style: none;
 }
@@ -28,27 +51,21 @@
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.link-logo {
-  text-decoration: none;
-  color: var(--iris, #4d5ae5);
-  font-family: Raleway;
-  font-size: 0px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-.link-logo > span {
-  font-size: 18px;
-}
+
 .button {
+  color: var(--iris);
+  background-color: var(--cloud);
+  text-align: center;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
+}
+.container {
+  display:
+  justify-content:
 }
 /* End of General Style */
 
@@ -62,9 +79,15 @@
 }
 
 .header-list {
+  
 }
 
-.header-item {
+.header-link:hover {
+  color: var(--white);
+  background-color: var(--iris);
+}
+.header-link:focus {
+  color: var(--slate);
 }
 
 .header-link {
@@ -85,6 +108,13 @@
 }
 .address-item {
 }
+.address-link:hover {
+  color: var(--white);
+  background-color: var(--iris);
+}
+.address-link:focus {
+  color: var(--slate);
+}
 .address-link {
   color: inherit;
   font-family: Roboto;
@@ -98,7 +128,7 @@
 /* --Main-- */
 /* --Hero Section-- */
 .hero {
-  background-color: var(--navyblue);
+  background-color: var(--navy-blue);
 }
 .hero-title {
   color: var(--white);
@@ -110,6 +140,7 @@
   line-height: 60px; /* 107.143% */
   letter-spacing: 1.12px;
 }
+
 .hero-button {
   color: var(--white);
   background-color: var(--iris);
@@ -189,6 +220,7 @@
 }
 .people-item-title {
   color: var(--navyblue);
+  text-align: center;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
@@ -198,18 +230,19 @@
 }
 .people-item-text {
   color: var(--slate);
+  text-align: center;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px/* 150% */
   letter-spacing: 0.32px;
 }
 
 /* --Footer-- */
 .footer {
   color: var(--cloud);
-  background-color: var(--navyblue);
+  background-color: var(--navy-blue);
 }
 .footer-text {
   color: var(--cloud);
@@ -220,3 +253,57 @@
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+
+/* --Portfolio Buttons-- */
+.buttons {
+background: var(--white);
+}
+.buttons-item {
+  color: var(--iris);
+  background: var(--cloud);
+    border-radius: 4px;
+border: 1px solid var(--cornflower);
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+}
+.buttons-all {
+  color: var(--white);
+  background-color: var(--ocean);
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+  /* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+}
+
+/* --Images Section-- */
+.images-item-title {
+  color: var(--navyblue);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+.images-item-text {
+  color: var(--slate);
+    font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px/* 150% */
+  letter-spacing: 0.32px;
+}
+
+
+/*  */

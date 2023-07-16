@@ -1,10 +1,16 @@
 :root {
   --iris: #4d5ae5;
-  --navyblue: #2e2f42;
-  --slate: #434455;
-  --white: #ffffff;
-  --cloud: #f4f4fd;
   --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+  --green: #31d0aa;
 }
 
 .body {
@@ -19,24 +25,11 @@
 .link {
   text-decoration: none;
 }
-.button {
-  color: var(--iris);
-  background-color: var(--cloud);
-  text-align: center;
-  /* Button Text */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
-}
+
 /* -- End of General Style */
 
 /* --Header-- */
-.header {
-  background-color: var(--white);
-}
+
 .link-logo {
   color: var(--iris);
   font-family: Raleway;
